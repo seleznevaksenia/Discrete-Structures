@@ -1,0 +1,10 @@
+d	E	.	sign	end
+1	2	3	4	5	6	7	Error
+2a	Error	7	Error	0
+2b	4a	3c	Error	admit1
+3a	4b	Error	Error	admit2
+6a	Error	Error	5	0
+6b	Error	Error	Error	0
+6c	Error	Error	Error	admit3
+3b	Error	Error	Error	0
+Error	Error	Error	Error	0
