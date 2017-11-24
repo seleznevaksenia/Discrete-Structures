@@ -1,0 +1,11 @@
+1	0	E
+S	#1	Error	Error
+A	#2	#4	Error
+B	#3	#4	Error
+1	#5	Error	Error
+0	Error	#5	Error
+end	Error	Error	Admit
+b	give	give	give
+c	give	give	give
+d	give	give	give
+a	give	give	give

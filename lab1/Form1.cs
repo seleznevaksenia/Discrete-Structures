@@ -98,7 +98,7 @@ namespace lab1
                             number.Add(item);
                             break;
                         default:
-                            result.AppendText("Input is not a number\n");
+                            result.AppendText("\nInput is not a number\n");
                             number.Add(item);
                             return;
                     }
@@ -123,7 +123,7 @@ namespace lab1
                         else
                         {
                             i = Int32.Parse(temp[0].ToString()) - 1;
-           
+
                             switch (temp)
                             {
                                 case "2a":
@@ -233,13 +233,14 @@ namespace lab1
                                     }
                                 case "admit2":
                                     {
-                                        result.AppendText("\nInteger with E");
+                                        RO = -RC;
+                                        result.AppendText("\ndouble without E");
                                         result.AppendText("\nRN=" + RN.ToString() + "*10^" + RO.ToString());
                                         return;
                                     }
                                 case "admit3":
                                     {
-                                        result.AppendText("\n double with E");
+                                        result.AppendText("\ndouble with E");
                                       
                                         RO = RO * RS - RC;
                                         result.AppendText("\nRN=" + RN.ToString()+"*10^"+ RO.ToString());
